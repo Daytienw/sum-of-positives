@@ -18,7 +18,7 @@ jar {
 
         attributes(
                 'Class-Path': configurations.implementation.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.galvanize.Application'
+                'Main-Class': 'com.galvanize.SumOfPositivesCLI'
         )
     }
     test {
