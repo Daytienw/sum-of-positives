@@ -1,3 +1,5 @@
+package com.galvanize;
+
 public class SumOfPositivesCLI {
     public static void main(String[] args) {
         int sum = 0;
