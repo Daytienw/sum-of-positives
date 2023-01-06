@@ -15,9 +15,7 @@ dependencies {
 }
 jar {
     manifest {
-
         attributes(
-                'Class-Path': configurations.implementation.collect { it.getName() }.join(' '),
                 'Main-Class': 'com.galvanize.SumOfPositivesCLI'
         )
     }
